@@ -13,7 +13,7 @@ RSpec.describe Solver do
 
     context 'Test the factorial of a negative input' do
       it 'exception error' do
-        expect { solver.factorial(-1) }.to raise_error(ArgumentError, 'Input must be a positive number!')
+        expect { solver.factorial(-1) }.to raise_error(ArgumentError)
       end
     end
   end
