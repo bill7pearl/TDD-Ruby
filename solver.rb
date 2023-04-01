@@ -1,6 +1,6 @@
 class Solver
     def factorial(num)
-      raise ArgumentError, 'This method only accepts 0 and positive integers!' unless num.is_a?(Integer) && num >= 0
+      raise ArgumentError, 'This method only accepts 0 and positive integers' unless num.is_a?(Integer) && num >= 0
   
       return 1 if num.zero?
   
